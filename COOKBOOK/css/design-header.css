@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav li, nav a, nav button {
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #F5FFFA;
+  text-decoration:none;
+}
+
+nav {
+  background-color: #FF9966;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 3%;
+}
+
+.logo {
+  background-color: #FF9966;
+  cursor: pointer;
+  height: auto;
+  width: auto;
+  max-height: 72px;
+  max-width: 250px;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+  background-color: #FF9966;
+}
+
+.nav__links li a {
+  background-color: #FF9966;
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #FFCC99;
+}
+
+nav button {
+  padding: 9px 25px;
+  background-color: rgb(255,204,153);
+  border: none;
+  border-radius: 24px;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+nav button:hover{
+  background-color: rgb(205, 92, 92);
+}
+
+nav form {
+  background-color: #FF9966;
+}
+
+nav input[type = "text"]{
+  border: 0;
+  background: none;
+  margin: 10px auto;
+  text-align: center;
+  border: 2px solid;
+  padding: 10px 5px;
+  width: 150px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+nav input[type = "text"]:focus{
+  width: 280px;
+  border-color: #95e1d3;
+}
+
+.search-text {
+  background-color: #FF9966;
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #F5FFFA;
+  text-decoration:none;
+}
+
+.session-name{
+  background-color: #FF9966;
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #F5FFFA;
+  text-decoration:none;
+}
+
+.session-name a{
+  background-color: #FF9966;
+  transition: all 0.3s ease 0s;
+}
+
+.session-name a:hover{
+  background-color: rgb(205, 92, 92);
+}

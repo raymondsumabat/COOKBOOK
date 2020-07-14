@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav li, nav a, nav button {
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #F5FFFA;
+  text-decoration:none;
+}
+
+nav {
+  background-color: #222831;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 3%;
+}
+
+.logo {
+  background-color: #222831;
+  cursor: pointer;
+  height: auto;
+  width: auto;
+  max-height: 72px;
+  max-width: 250px;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+  background-color: #222831;
+}
+
+.nav__links li a {
+  background-color: #222831;
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #00adb5;
+}
+
+nav button {
+  padding: 9px 25px;
+  background-color: rgb(57,62,70);;
+  border: none;
+  border-radius: 24px;
+  border: 2px solid #00adb5;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+nav button:hover{
+  background-color: rgb(0,173,181);
+}
+
+.session-name{
+  background-color: #222831;
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #F5FFFA;
+  text-decoration:none;
+}

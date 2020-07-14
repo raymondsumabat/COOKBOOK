@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{
+  background-color: #f6f6f6;
+}
+
+.wrapper h1{
+  font-family: "Red Hat Display",sans-serif;
+  text-align: left;
+  position: relative;
+  weight: 700;
+  top: 30px;
+  font-size: 50px;
+  background-color: #FFCC99;
+  text-transform: uppercase;
+}
+
+.recipe-box {
+  text-align: center;
+  position: relative;
+  top: 70px;
+  padding-bottom: 120px;
+}
+
+.recipe-box p{
+  font-family: "Raleway",sans-serif;
+  font-size: 20px;
+}
+
+.recipe-box h2, h1{
+  font-family: "Red Hat Display",sans-serif;
+  font-size: 30px;
+}
+
+.recipe-box textarea{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid;
+  padding: 14px 10px;
+  outline: none;
+  border-color: #ffb3b3;
+  border-radius: 24px;
+}
+
+textarea {
+  font-family: "Raleway",sans-serif;
+}
+
+.feedback-section {
+  background-color: #feceab;
+}
+
+.recipe-rate {
+  text-align: center;
+  position: relative;
+  background-color: #FFCC99;
+  padding-bottom: 40px;
+  display: block;
+}
+
+.ratings-section {
+  text-align: center;
+  position: relative;
+  padding-bottom: 20px;
+  font-family: "Raleway",sans-serif;
+}
+
+.ratings {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.submit-rating{
+  padding: 9px 25px;
+  background-color: rgb(250, 128, 114);
+  border: none;
+  border-radius: 24px;
+  border: 2px solid #CD5C5C;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.submit-rating:hover{
+  background-color: rgb(205, 92, 92);
+}

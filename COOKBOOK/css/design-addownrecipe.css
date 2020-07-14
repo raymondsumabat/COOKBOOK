@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #f6f6f6;
+}
+
+.box{
+  width: 600px;
+  padding: 15px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #FFF8DC;
+  text-align: center;
+  border-radius: 24px;
+  border: solid;
+}
+
+.box input[type = "text"], .box textarea{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.box input[type = "text"]:focus{
+  width: 400px;
+  border-color: #CD5C5C;
+}
+
+.box textarea:focus{
+  width: 400px;
+  height: 200px;
+  border-color: #CD5C5C;
+}
+
+.box button[type = "submit"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #CD5C5C;
+  padding: 14px 40px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box button[type = "submit"]:hover {
+  background: #00FF7F;
+}
+
+.box button[type = "reset"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #CD5C5C;
+  padding: 14px 40px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box button[type = "reset"]:hover {
+  background: #CD5C5C;
+}
+
+.box select{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #CD5C5C;
+  padding: 14px 40px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box input[type = "file"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #CD5C5C;
+  padding: 14px 40px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+text{
+  color: black;
+}
+
+h1 {
+  font-family: "Red Hat Display",sans-serif;
+  text-align: left;
+  position: relative;
+  weight: 700;
+  top: 30px;
+  font-size: 50px;
+  background-color: #FFCC99;
+}

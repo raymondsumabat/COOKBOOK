@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
+
+body{
+  background-color: #393e46;
+}
+
+.wrapper h1{
+  font-family: "Red Hat Display",sans-serif;
+  text-align: left;
+  position: relative;
+  weight: 700;
+  top: 30px;
+  font-size: 50px;
+  color: white;
+  background-color: black;
+}
+
+.tab{
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+form h3{
+  font-family: "Red Hat Display",sans-serif;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.buttons {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.table {
+  position: relative;
+  width: 60%;
+  height: 400px;
+  border-spacing: 1;
+  border-radius: 12px 12px 0 0;
+  overflow: hidden;
+  background: white;
+  text-align: center;
+  left: 100px;
+}
+
+.table-users {
+  position: relative;
+  width: 60%;
+  height: 400px;
+  border-spacing: 1;
+  border-radius: 12px 12px 0 0;
+  overflow: hidden;
+  background: white;
+  text-align: center;
+  left: 350px;
+}
+
+textarea{
+  font-family: "Raleway",sans-serif;
+}
+
+th{
+  text-transform: uppercase;
+  background-color: #222831;
+  color: white;
+  font-family: "Raleway",sans-serif;
+}
+
+table img {
+  width: 600px;
+  height: 400px;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgb(57,62,70);;
+  border: none;
+  border-radius: 24px;
+  border: 2px solid #00adb5;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover{
+  background-color: rgb(0,173,181);
+}
+
+button {
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #F5FFFA;
+  text-decoration:none;
+}
